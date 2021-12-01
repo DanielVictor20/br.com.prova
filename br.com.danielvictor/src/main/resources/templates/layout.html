@@ -27,23 +27,24 @@
 	
 	
 	<div class="loyout-main">
+	
+		<aside style="float: left">
 		
-	<section layout:fragment="corpo">
-		<div>Conteúdo Principal das Páginas</div>
-	</section>	
-
-		<aside>
+		
 
 			<nav th:replace="fragments/sidebar :: nav-sidebar">
 				<span>menu</span>		
 			</nav>
 
-	
+	 
+			<div>Conteúdo Principal das Páginas</div>
 			
 		</aside>
-	
+		
+	<section layout:fragment="corpo">
+	</section>	
 
-				
+	
 				
 	</div>
 
